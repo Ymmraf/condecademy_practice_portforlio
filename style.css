@@ -40,15 +40,26 @@ h2 {
 .works-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: auto;
     gap: 50px 50px;
     width: 80%;
 }
 
 .work-container {
+    background-color: palevioletred;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .work-container p {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .works-grid-container {
+        grid-template-columns: 1fr;
+    }
 }
