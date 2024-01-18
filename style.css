@@ -74,6 +74,17 @@ footer {
     left: 0px;
 }
 
+.contact-list {
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
 @media screen and (max-width: 1000px) {
     .works-grid-container {
         grid-template-columns: 1fr;
