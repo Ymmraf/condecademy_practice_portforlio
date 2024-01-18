@@ -51,11 +51,27 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 .work-container p {
     font-size: 30px;
     text-align: center;
+}
+
+aside p {
+    font-size: 22px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 @media screen and (max-width: 1000px) {
